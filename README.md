@@ -11,7 +11,7 @@ This framework/repo is contains the automation testing for web page login fucnti
 
 1. "Clone the repo"
 
-   git clone <repository-url>
+   git clone "Repo URL"
 
 2. "Install dependencies"
    
