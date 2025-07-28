@@ -29,13 +29,12 @@ This framework/repo is contains the automation testing for web page login fucnti
    npx playwright test
 
 
-### HTMS Report
+### HTML Report
 
 In visual code terminal run below command or Run from Visual code NPM SCRIPTS section
 
 npx playwright show-report
 
+### Functional Test cases
 
-
-
-"# automation_test" 
+Under functional_test folder functional test cases are written
