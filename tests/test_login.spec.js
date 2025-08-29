@@ -15,6 +15,8 @@ test.describe('Test Login feature', () => {
 
   test('Validate Successful Login', async ({ page }) => {
     await loginPage.loginOnPage(users.validDetails.username, users.validDetails.password);
+       //await page.waitForTimeout(5000);
+    //await page.pause();
     await expect(loginPage.successLoginMessage).toHaveText(loginData.successMessage);
   });
 
